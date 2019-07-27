@@ -1,0 +1,40 @@
+{
+	"id": "ticketsPurchaseAppData",
+	"initial": "loading",
+	"context": {
+		"moviesList": [],
+		"movie": null,
+		"error": null
+	},
+	"states": {
+		"loading": {
+			"on": {
+				"RESOLVE": "moviesList",
+				"REJECT": "failure"
+			}
+		},
+		"moviesList": {
+			"on": {
+				"GET_TICKETS": "checkout"
+			}
+		},
+		"checkout": {
+			"on": {
+				"FINISH": "success",
+				"RETURN": "moviesList",
+				"ERROR": "failure"
+			}
+		},
+		"success": {
+			"on": {
+				"RETURN": "moviesList"
+			}
+		},
+		"failure": {
+			"on": {
+				"RETRY_CHECKOUT": "checkout",
+				"RETRY_MOVIES": "moviesList"
+			}
+		}
+	}
+}
