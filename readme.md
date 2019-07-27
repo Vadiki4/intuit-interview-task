@@ -23,5 +23,5 @@
 - Machine Context to provide machine methods
 - User Context accessible
 - Local modules located inside lib folder
-- All modules are imporable from the main index of the library
+- All modules are importable from the main index of the library
 - The library can be used elsewhere by copying its folder to other project
