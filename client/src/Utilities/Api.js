@@ -1,6 +1,5 @@
 import axios from 'axios';
 const baseUrl = 'http://localhost:5000';
-// const baseUrl = 'http://10.0.0.4:5000';
 
 export default {
 	movies() {
