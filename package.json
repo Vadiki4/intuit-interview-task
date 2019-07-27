@@ -1,7 +1,7 @@
 {
-	"name": "server",
+	"name": "intuit-ticket-review",
 	"version": "1.0.0",
-	"description": "",
+	"description": "intuit interview task",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,7 @@
 		"client": "npm run start --prefix client",
 		"start": "concurrently \"npm run server\" \"npm run client\""
 	},
-	"author": "Vadim SMel",
+	"author": "Vadim Smel",
 	"license": "ISC",
 	"dependencies": {
 		"axios": "^0.19.0",

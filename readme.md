@@ -1,8 +1,8 @@
 # intuit interview task
 
 ## intallation steps
-- npm install-server
-- npm install-client
+- npm run install-server
+- npm run install-client
 - Start the app with npm start
 
 **Note: due to cors, the app will work only on the machine running it**

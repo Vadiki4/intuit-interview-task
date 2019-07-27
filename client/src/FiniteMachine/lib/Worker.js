@@ -9,7 +9,6 @@ const Worker = ({
 	...restProps
 }) => {
 	const context = useContext(MachineContext);
-	console.log(context);
 	if (activeState === context.currentState) {
 		return (
 			<div className={className} key={key}>
