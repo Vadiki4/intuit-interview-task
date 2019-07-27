@@ -12,6 +12,7 @@
 - Stages [ loading, movies-list, checkout, success, error ]
 - Movie list page to list 20 now playing movies
 - Random exclusive movie banner
+- Responsive layout
 - Checkout page with movie Overview
 - Success page
 - Error page
