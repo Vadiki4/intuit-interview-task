@@ -7,6 +7,8 @@
 
 **Note: due to cors, the app will work only on the machine running it**
 
+**Note: Tested on latest versions of Firefox and Chrome**
+
 ## Movie Theatre App Example
 - 5 stage app to buy a ticket
 - Stages [ loading, movies-list, checkout, success, error ]
